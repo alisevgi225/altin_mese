@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altın Meşe | Lüks Mobilya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo-section">
+                    <img src="assets/image/altin_mese_logo.png" alt="Altın Meşe Logo" class="logo-icon">
+                    <div class="logo-text">
+                        <span class="logo-name">ALTIN MEŞE</span>
+                        <p class="logo-subtitle">Mobilya</p>
+                    </div>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#koleksiyonlar" class="nav-link">Koleksiyonlar</a>
+                    <a href="#hikaye" class="nav-link">Hikâyemiz</a>
+                    <a href="#ustalık" class="nav-link">Ustalık</a>
+                    <a href="#iletisim" class="nav-link">İletişim</a>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero subtle-grain">
+        <div class="hero-texture">
+            <svg viewBox="0 0 200 200">
+                <defs>
+                    <pattern id="wood-grain" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M0 20 Q10 18 20 20 T40 20" stroke="#B8904D" stroke-width="0.3" fill="none" opacity="0.3" />
+                        <path d="M0 22 Q10 24 20 22 T40 22" stroke="#B8904D" stroke-width="0.2" fill="none" opacity="0.2" />
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#wood-grain)" />
+            </svg>
+        </div>
+        <div class="corner-accent corner-top-left"></div>
+        <div class="corner-accent corner-bottom-right"></div>
+        <div class="hero-content">
+            <div class="hero-logo animate-fade-in">
+                <img src="assets/image/altin_mese_logo.png" alt="Altın Meşe Logo" class="hero-logo-img">
+            </div>
+            <h1 id="hero-tagline" class="hero-title animate-fade-in animate-delay-1">Zamansız Zarafet</h1>
+            <div class="divider-gold animate-fade-in animate-delay-2"></div>
+            <p id="hero-subtitle" class="hero-subtitle animate-fade-in animate-delay-2">Nesilden nesile aktarılan ustalık, doğanın eşsiz güzelliği ve el işçiliğinin buluştuğu yerde lüks mobilya tasarımları</p>
+            <a href="#koleksiyonlar" class="cta-button animate-fade-in animate-delay-3">
+                <span>Koleksiyonları Keşfet</span>
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <span>Keşfet</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section id="koleksiyonlar" class="collections subtle-grain">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Eşsiz Tasarımlar</span>
+                <h2 id="collections-title" class="section-title">Koleksiyonlarımız</h2>
+                <div class="divider-gold"></div>
+            </div>
+            <div class="collections-grid">
+                <div class="collection-card">
+                    <div class="collection-image">
+                        <div class="card-image">
+                            <svg viewBox="0 0 100 100" fill="none" stroke="#8B6F47" stroke-width="1">
+                                <rect x="20" y="40" width="60" height="35" rx="2" />
+                                <rect x="25" y="30" width="20" height="15" rx="1" />
+                                <rect x="55" y="30" width="20" height="15" rx="1" />
+                                <rect x="25" y="75" width="6" height="15" rx="1" />
+                                <rect x="69" y="75" width="6" height="15" rx="1" />
+                            </svg>
+                        </div>
+                        <div class="card-overlay">
+                            <div>
+                                <span class="overlay-label">Oturma Grubu</span>
+                                <h3 class="overlay-title">Heritage Koleksiyonu</h3>
+                                <p class="overlay-text">Klasik çizgiler, modern konfor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-footer">
+                        <span>Detayları Gör</span>
+                        <svg fill="none" stroke="#B8904D" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <div class="collection-image">
+                        <div class="card-image card-image-2">
+                            <svg viewBox="0 0 100 100" fill="none" stroke="#8B6F47" stroke-width="1">
+                                <rect x="30" y="25" width="40" height="50" rx="2" />
+                                <rect x="35" y="30" width="30" height="15" rx="1" />
+                                <rect x="35" y="50" width="30" height="20" rx="1" />
+                                <rect x="35" y="75" width="8" height="8" rx="1" />
+                                <rect x="57" y="75" width="8" height="8" rx="1" />
+                            </svg>
+                        </div>
+                        <div class="card-overlay">
+                            <div>
+                                <span class="overlay-label">Yatak Odası</span>
+                                <h3 class="overlay-title">Serenity Koleksiyonu</h3>
+                                <p class="overlay-text">Huzurun adresi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-footer">
+                        <span>Detayları Gör</span>
+                        <svg fill="none" stroke="#B8904D" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <div class="collection-image">
+                        <div class="card-image card-image-3">
+                            <svg viewBox="0 0 100 100" fill="none" stroke="#8B6F47" stroke-width="1">
+                                <rect x="25" y="40" width="50" height="4" rx="1" />
+                                <rect x="28" y="44" width="4" height="40" rx="1" />
+                                <rect x="68" y="44" width="4" height="40" rx="1" />
+                                <rect x="38" y="50" width="24" height="20" rx="1" />
+                            </svg>
+                        </div>
+                        <div class="card-overlay">
+                            <div>
+                                <span class="overlay-label">Yemek Odası</span>
+                                <h3 class="overlay-title">Grandeur Koleksiyonu</h3>
+                                <p class="overlay-text">Şölene davet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-footer">
+                        <span>Detayları Gör</span>
+                        <svg fill="none" stroke="#B8904D" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Story Section -->
+    <section id="hikaye" class="story subtle-grain">
+        <div class="container">
+            <div class="story-content">
+                <div class="story-image-wrapper">
+                    <div class="story-image">
+                        <svg viewBox="0 0 100 100" fill="none" stroke="#E8D5C4" stroke-width="0.5">
+                            <circle cx="50" cy="50" r="30" />
+                            <circle cx="50" cy="50" r="20" />
+                            <circle cx="50" cy="50" r="10" />
+                            <line x1="20" y1="50" x2="80" y2="50" />
+                            <line x1="50" y1="20" x2="50" y2="80" />
+                        </svg>
+                    </div>
+                    <div class="frame-accent frame-top-left"></div>
+                    <div class="frame-accent frame-bottom-right"></div>
+                </div>
+                <div class="story-text-content">
+                    <span class="section-label">1967'den Beri</span>
+                    <h2 id="story-title" class="section-title">Marka Hikâyemiz</h2>
+                    <div class="story-text">
+                        <p id="story-text">Altın Meşe, yarım asrı aşkın tecrübesiyle Türk mobilya sektörünün en köklü markalarından biri olarak, nesilden nesile aktarılan ustalık geleneğini modern tasarım anlayışıyla birleştirmektedir.</p>
+                        <p>Her parça, ustalarımızın elinde şekillenen doğal ahşabın güzelliğini, zamansız tasarım çizgileriyle buluşturur. Meşe ağacının sağlamlığı ve dayanıklılığı, markamızın temel değerlerini yansıtır.</p>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">57</span>
+                            <p class="stat-label">Yıllık Deneyim</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3K+</span>
+                            <p class="stat-label">Mutlu Müşteri</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <p class="stat-label">Usta Zanaatkâr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Craftsmanship Section -->
+    <section id="ustalık" class="craftsmanship subtle-grain">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">El İşçiliği</span>
+                <h2 id="craftsmanship-title" class="section-title">Ustalık Farkımız</h2>
+                <div class="divider-gold"></div>
+            </div>
+            <div class="craft-grid">
+                <div class="craft-item">
+                    <div class="craft-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#B8904D" stroke-width="1">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" />
+                            <path d="M2 17L12 22L22 17" />
+                            <path d="M2 12L12 17L22 12" />
+                        </svg>
+                    </div>
+                    <h3 class="craft-title">Seçkin Malzeme</h3>
+                    <p class="craft-text">En kaliteli ahşap ve kumaşlar, titizlikle seçilir</p>
+                </div>
+                <div class="craft-item">
+                    <div class="craft-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#B8904D" stroke-width="1">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                        </svg>
+                    </div>
+                    <h3 class="craft-title">El İşçiliği</h3>
+                    <p class="craft-text">Geleneksel teknikler, modern ustalıkla birleşir</p>
+                </div>
+                <div class="craft-item">
+                    <div class="craft-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#B8904D" stroke-width="1">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6V12L16 14" />
+                        </svg>
+                    </div>
+                    <h3 class="craft-title">Zamansız Tasarım</h3>
+                    <p class="craft-text">Modası geçmeyen, nesiller boyu sürecek estetik</p>
+                </div>
+                <div class="craft-item">
+                    <div class="craft-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#B8904D" stroke-width="1">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            <path d="M9 12l2 2 4-4" />
+                        </svg>
+                    </div>
+                    <h3 class="craft-title">Ömür Boyu Garanti</h3>
+                    <p class="craft-text">Kalitemize olan güvenimizin teminatı</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial subtle-grain">
+        <div class="container">
+            <svg class="quote-icon" viewBox="0 0 24 24" fill="#D4A960">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z" />
+            </svg>
+            <blockquote class="testimonial-text">
+                "Altın Meşe mobilyalarımız, evimize sadece eşya değil, bir ruh kattı. Üç nesil geçti, kaliteleri hâlâ ilk günkü gibi."
+            </blockquote>
+            <div class="testimonial-author">
+                <div class="author-avatar">AK</div>
+                <div class="author-info">
+                    <p class="author-name">Ayşe Kaya</p>
+                    <p class="author-location">İstanbul</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="iletisim" class="contact subtle-grain">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <span class="section-label">İletişim</span>
+                    <h2 class="section-title">Bizimle Tanışın</h2>
+                    <p class="contact-description">Hayalinizdeki mobilyayı birlikte tasarlayalım. Showroom'umuzu ziyaret edin veya bizimle iletişime geçin.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg fill="none" stroke="#B8904D" viewBox="0 0 24 24" stroke-width="1">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="contact-item-title">Showroom</h4>
+                                <p class="contact-item-text">Maslak Mah. Eski Büyükdere Cad. No: 123<br>Sarıyer, İstanbul</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg fill="none" stroke="#B8904D" viewBox="0 0 24 24" stroke-width="1">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="contact-item-title">E-posta</h4>
+                                <p class="contact-item-text">info@altinmese.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg fill="none" stroke="#B8904D" viewBox="0 0 24 24" stroke-width="1">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="contact-item-title">Telefon</h4>
+                                <p class="contact-item-text">+90 212 123 45 67</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h3 class="form-title">Randevu Alın</h3>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Adınız Soyadınız</label>
+                                <input type="text" id="name" name="name" placeholder="Adınız" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefon</label>
+                                <input type="tel" id="phone" name="phone" placeholder="05XX XXX XX XX" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-posta</label>
+                            <input type="email" id="email" name="email" placeholder="ornek@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">İlgilendiğiniz Kategori</label>
+                            <select id="interest" name="interest">
+                                <option value="">Seçiniz</option>
+                                <option value="oturma">Oturma Grubu</option>
+                                <option value="yatak">Yatak Odası</option>
+                                <option value="yemek">Yemek Odası</option>
+                                <option value="ozel">Özel Tasarım</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mesajınız</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Hayalinizdeki mobilyayı anlatın..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            <span>Gönder</span>
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                            </svg>
+                        </button>
+                    </form>
+                    <p id="form-message" class="form-message"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/image/altin_mese_logo.png" alt="Altın Meşe Logo" class="footer-logo-img">
+                    <span class="footer-logo-text">ALTIN MEŞE</span>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                    </a>
+                </div>
+                <p id="footer-text" class="footer-copyright">© 2024 Altın Meşe. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
