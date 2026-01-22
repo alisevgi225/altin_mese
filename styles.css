@@ -140,8 +140,8 @@ body {
 }
 
 .logo-icon {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
     object-fit: contain;
 }
 
@@ -213,7 +213,7 @@ body {
     justify-content: center;
     overflow: hidden;
     background: linear-gradient(135deg, #6B5644 0%, #5C4A3A 50%, #4A3C2F 100%);
-    padding-top: 80px;
+    padding-top: 120px;
 }
 
 .hero-texture {
@@ -264,7 +264,7 @@ body {
 }
 
 .hero-logo-img {
-    width: 12rem;
+    width: 24rem;
     height: auto;
     max-width: 100%;
     margin: 0 auto;
@@ -1021,7 +1021,7 @@ body {
     }
 
     .hero {
-        padding-top: 100px;
+        padding-top: 120px;
         min-height: 90vh;
     }
 
@@ -1049,6 +1049,6 @@ body {
     }
 
     .hero-logo-img {
-        width: 8rem;
+        width: 16rem;
     }
 }
