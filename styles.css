@@ -28,7 +28,7 @@ html {
 
 body {
     font-family: 'Inter', -apple-system, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     background-color: var(--primary-bg);
     color: var(--text-light);
     line-height: 1.6;
@@ -44,12 +44,12 @@ body {
 /* Typography */
 .font-display {
     font-family: 'Cormorant', Georgia, serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .font-body {
     font-family: 'Inter', -apple-system, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 /* Animations */
@@ -153,14 +153,14 @@ body {
 .logo-name {
     font-family: 'Cormorant', serif;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0.05em;
     color: var(--gold);
 }
 
 .logo-subtitle {
     font-size: 0.75rem;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--brown-light);
@@ -175,7 +175,7 @@ body {
 
 .nav-link {
     font-size: 0.875rem;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--text-white);
@@ -275,7 +275,7 @@ body {
 .hero-title {
     font-family: 'Cormorant', serif;
     font-size: clamp(2.5rem, 6vw, 5rem);
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.2;
     color: var(--text-white);
     margin-bottom: 2rem;
@@ -284,7 +284,7 @@ body {
 
 .hero-subtitle {
     font-size: clamp(1.125rem, 2vw, 1.25rem);
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.8;
     color: var(--text-cream);
     max-width: 42rem;
@@ -304,7 +304,7 @@ body {
 
 .cta-button span {
     font-size: 0.875rem;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
 }
@@ -333,7 +333,7 @@ body {
 
 .scroll-indicator span {
     font-size: 0.75rem;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--brown-light);
@@ -360,7 +360,7 @@ body {
 .section-label {
     display: block;
     font-size: 0.75rem;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: #C99D5A;
@@ -370,7 +370,7 @@ body {
 .section-title {
     font-family: 'Cormorant', serif;
     font-size: clamp(2rem, 4vw, 3.5rem);
-    font-weight: 400;
+    font-weight: 600;
     color: var(--text-dark);
     margin-bottom: 2rem;
 }
@@ -442,7 +442,7 @@ body {
 
 .overlay-label {
     font-size: 0.75rem;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--gold-light);
@@ -451,14 +451,14 @@ body {
 .overlay-title {
     font-family: 'Cormorant', serif;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--text-white);
     margin-top: 0.5rem;
 }
 
 .overlay-text {
     font-size: 0.875rem;
-    font-weight: 300;
+    font-weight: 500;
     color: #F5E6D3;
     margin-top: 0.5rem;
 }
@@ -471,7 +471,7 @@ body {
 
 .collection-footer span {
     font-size: 0.75rem;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--brown-dark);
@@ -555,7 +555,7 @@ body {
 
 .story-text {
     font-size: 1.05rem;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.9;
     margin-bottom: 4rem;
 }
@@ -580,14 +580,14 @@ body {
     display: block;
     font-family: 'Cormorant', serif;
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--gold-light);
     margin-bottom: 0.5rem;
 }
 
 .stat-label {
     font-size: 0.75rem;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #C9B89F;
@@ -638,14 +638,14 @@ body {
 .craft-title {
     font-family: 'Cormorant', serif;
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--text-dark);
     margin-bottom: 1rem;
 }
 
 .craft-text {
     font-size: 0.875rem;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.6;
     color: var(--brown-dark);
 }
@@ -671,7 +671,7 @@ body {
 .testimonial-text {
     font-family: 'Cormorant', serif;
     font-size: clamp(1.5rem, 3vw, 2rem);
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.6;
     color: var(--text-white);
     margin-bottom: 2.5rem;
@@ -699,14 +699,14 @@ body {
 }
 
 .author-name {
-    font-weight: 500;
+    font-weight: 700;
     color: var(--text-white);
     margin-bottom: 0.25rem;
 }
 
 .author-location {
     font-size: 0.875rem;
-    font-weight: 300;
+    font-weight: 500;
     color: #C9B89F;
 }
 
@@ -729,7 +729,7 @@ body {
 
 .contact-description {
     font-size: 1.05rem;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.8;
     color: var(--text-cream);
     margin-bottom: 3.5rem;
@@ -764,13 +764,13 @@ body {
 }
 
 .contact-item-title {
-    font-weight: 500;
+    font-weight: 700;
     color: var(--text-white);
     margin-bottom: 0.5rem;
 }
 
 .contact-item-text {
-    font-weight: 300;
+    font-weight: 500;
     color: #C9B89F;
 }
 
@@ -783,7 +783,7 @@ body {
 .form-title {
     font-family: 'Cormorant', serif;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--text-white);
     margin-bottom: 2.5rem;
 }
@@ -807,7 +807,7 @@ body {
 
 .form-group label {
     font-size: 0.75rem;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--text-cream);
@@ -820,7 +820,7 @@ body {
     width: 100%;
     padding: 0.75rem 1rem;
     font-family: inherit;
-    font-weight: 300;
+    font-weight: 500;
     background: rgba(92, 74, 58, 0.5);
     border: 1px solid rgba(184, 144, 77, 0.2);
     color: var(--text-white);
@@ -849,7 +849,7 @@ body {
     border: none;
     color: var(--text-dark);
     font-size: 0.875rem;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     cursor: pointer;
@@ -869,7 +869,7 @@ body {
     margin-top: 1.25rem;
     text-align: center;
     font-size: 0.875rem;
-    font-weight: 300;
+    font-weight: 500;
     display: none;
 }
 
@@ -940,7 +940,7 @@ body {
 
 .footer-copyright {
     font-size: 0.875rem;
-    font-weight: 300;
+    font-weight: 500;
     color: #9A856F;
 }
 
