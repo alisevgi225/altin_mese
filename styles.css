@@ -466,10 +466,11 @@ body {
     transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-image svg {
-    width: 9rem;
-    height: 9rem;
-    opacity: 0.15;
+.card-image-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .card-image-2 {
