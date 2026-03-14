@@ -38,52 +38,46 @@ const contactForm = document.getElementById('contact-form');
 const formMessage = document.getElementById('form-message');
 
 if (contactForm && formMessage) {
+    const interestLabels = {
+        '': '',
+        'oturma': 'Oturma Grubu',
+        'yatak': 'Yatak Odası',
+        'yemek': 'Yemek Odası',
+        'ozel': 'Özel Tasarım'
+    };
+
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
-        
+
         const name = document.getElementById('name').value.trim();
-        const phone = document.getElementById('phone').value.trim();
-        const email = document.getElementById('email').value.trim();
         const interest = document.getElementById('interest').value;
         const message = document.getElementById('message').value.trim();
-        
-        // Validation
-        if (!name || !phone || !email) {
-            formMessage.textContent = 'Lütfen zorunlu alanları doldurun.';
+
+        if (!name) {
+            formMessage.textContent = 'Lütfen adınızı soyadınızı girin.';
+            formMessage.style.color = '#D4745C';
+            formMessage.classList.add('show');
+            return;
+        }
+        if (!message) {
+            formMessage.textContent = 'Lütfen mesajınızı yazın.';
             formMessage.style.color = '#D4745C';
             formMessage.classList.add('show');
             return;
         }
 
-        // Email validation
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email)) {
-            formMessage.textContent = 'Lütfen geçerli bir e-posta adresi girin.';
-            formMessage.style.color = '#D4745C';
-            formMessage.classList.add('show');
-            return;
-        }
-        
-        // Show success message
-        formMessage.textContent = 'Mesajınız başarıyla gönderildi. En kısa sürede sizinle iletişime geçeceğiz.';
-        formMessage.style.color = '#B8904D';
-        formMessage.classList.add('show');
-        
-        // Reset form
+        const categoryText = interest ? interestLabels[interest] || interest : '';
+        const text = [
+            'Merhaba, ben ' + name + '.',
+            categoryText ? 'İlgilendiğim kategori: ' + categoryText + '.' : '',
+            message
+        ].filter(Boolean).join(' ');
+
+        const whatsappNumber = '905556664422';
+        const whatsappUrl = 'https://wa.me/' + whatsappNumber + '?text=' + encodeURIComponent(text);
+
         contactForm.reset();
-        
-        // Hide message after 5 seconds
-        setTimeout(() => {
-            formMessage.classList.remove('show');
-        }, 5000);
-        
-        // In a real application, you would send the form data to a server here
-        // Example:
-        // fetch('/api/contact', {
-        //     method: 'POST',
-        //     headers: { 'Content-Type': 'application/json' },
-        //     body: JSON.stringify({ name, phone, email, interest, message })
-        // });
+        window.open(whatsappUrl, '_blank');
     });
 }
 

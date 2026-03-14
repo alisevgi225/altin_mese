@@ -26,7 +26,7 @@ altin_mese/
 ## Bölümler
 
 1. **Hero Section**: Etkileyici giriş bölümü
-2. **Koleksiyonlar**: Ürün koleksiyonları grid görünümü
+2. **Tasarımlar**: Ürün tasarımları grid görünümü
 3. **Hikâyemiz**: Marka hikayesi ve istatistikler
 4. **Ustalık**: El işçiliği özellikleri
 5. **Müşteri Yorumu**: Testimonial bölümü
