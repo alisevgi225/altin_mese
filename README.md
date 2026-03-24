@@ -1,6 +1,6 @@
-# Altın Meşe - Lüks Mobilya Web Sitesi
+# BA-KÜ Mobilya ve İnşaat - Lüks Mobilya Web Sitesi
 
-Modern ve zarif bir lüks mobilya web sitesi. Altın Meşe markası için özel olarak tasarlanmış, responsive ve kullanıcı dostu bir web deneyimi.
+Modern ve zarif bir lüks mobilya web sitesi. BA-KÜ Mobilya ve İnşaat markası için özel olarak tasarlanmış, responsive ve kullanıcı dostu bir web deneyimi.
 
 ## Dosya Yapısı
 
